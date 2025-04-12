@@ -21,3 +21,6 @@ Array.from(document.querySelectorAll(".navigation-button")).forEach(item => {
     item.parentElement.parentElement.classList.toggle("change");
   };
 });
+
+// Update footer with current year
+document.getElementById('footer-year').innerHTML = `Code By Tai Odunaiya &copy; ${new Date().getFullYear()} All rights reserved`;
