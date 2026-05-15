@@ -1,11 +1,17 @@
 const container = document.querySelector(".container");
 
+function closeNavbar() {
+  container.classList.remove("change");
+}
+
 document.querySelector(".open-navbar-icon").addEventListener("click", () => {
   container.classList.add("change");
 });
 
-document.querySelector(".close-navbar-icon").addEventListener("click", () => {
-  container.classList.remove("change");
+document.querySelector(".close-navbar-icon").addEventListener("click", closeNavbar);
+
+document.querySelectorAll(".nav-link").forEach((link) => {
+  link.addEventListener("click", closeNavbar);
 });
 
 const colors = ["#6495ed", "#7fffd4", "#ffa07a", "#f08080", "#afeeee"];
@@ -22,5 +28,7 @@ Array.from(document.querySelectorAll(".navigation-button")).forEach(item => {
   };
 });
 
-// Update footer with current year
-document.getElementById('footer-year').innerHTML = `Code By Tai Odunaiya &copy; ${new Date().getFullYear()} All rights reserved`;
+const yearEl = document.getElementById("current-year");
+if (yearEl) {
+  yearEl.textContent = new Date().getFullYear();
+}

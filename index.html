@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <title>LETS GO</title>
+  <title>Let's Go — Around the World</title>
 </head>
 
 <body>
@@ -27,8 +27,8 @@
         <div class="nav-list">
           <a href="#home" class="nav-link center">Home</a>
           <a href="#tours" class="nav-link center">Tours</a>
-          <a href="#" class="nav-link center">About Us</a>
-          <a href="#" class="nav-link center">Offer</a>
+          <a href="#about" class="nav-link center">About Us</a>
+          <a href="#offer" class="nav-link center">Offer</a>
           <a href="#contact" class="nav-link center">Contact</a>
         </div>
       </nav>
@@ -38,9 +38,9 @@
     <!-- Header -->
     <header class="header center" id="home">
       <div class="header-text">
-        <h1 class="heading">Around the world</h1>
+        <h1 class="heading">Around the World</h1>
         <p class="header-paragraph">
-          "Adventure - fills your soul with memories, and every journey becomes a chapter in your story."
+          Adventure fills your soul with memories, and every journey becomes a chapter in your story.
         </p>
       </div>
       <img src="images/air-balloon.png" alt="Header Image" class="header-image" />
@@ -60,14 +60,14 @@
 
     <!-- Popular tours -->
     <section class="popular-tours" id="tours">
-      <h1 class="popular-tours-heading">The Most Popular Tours</h1>
+      <h1 class="popular-tours-heading" id="offer">The Most Popular Tours</h1>
       <div class="cards-wrapper">
         <div class="card">
           <div class="front-side">
             <img src="images/train.jpg" alt="Train" class="card-image" />
-            <h1 class="tour-name">The Tain Tour</h1>
+            <h1 class="tour-name">The Train Tour</h1>
             <ul class="card-list">
-              <li class="card-list-item">7 days tain tour</li>
+              <li class="card-list-item">7-day train tour</li>
               <li class="card-list-item">Up to 20 people</li>
               <li class="card-list-item">4 tour guides</li>
               <li class="card-list-item">Sleep in private rooms</li>
@@ -83,10 +83,10 @@
         </div>
         <div class="card">
           <div class="front-side">
-            <img src="images/cruise.jpg" alt="cruise" class="card-image" />
-            <h1 class="tour-name">9 day Alaskan cruise</h1>
+            <img src="images/cruise.jpg" alt="Alaskan cruise ship" class="card-image" />
+            <h1 class="tour-name">9-Day Alaskan Cruise</h1>
             <ul class="card-list">
-              <li class="card-list-item">9 days tour</li>
+              <li class="card-list-item">9-day tour</li>
               <li class="card-list-item">Up to 30 people</li>
               <li class="card-list-item">7 tour guides</li>
               <li class="card-list-item">Live shows</li>
@@ -102,10 +102,10 @@
         </div>
         <div class="card">
           <div class="front-side">
-            <img src="images/egypt.jpg" alt="egypt" class="card-image" />
-            <h1 class="tour-name">Travel to the pyramids</h1>
+            <img src="images/egypt.jpg" alt="Pyramids of Giza, Egypt" class="card-image" />
+            <h1 class="tour-name">Travel to the Pyramids</h1>
             <ul class="card-list">
-              <li class="card-list-item">5 days tour</li>
+              <li class="card-list-item">5-day tour</li>
               <li class="card-list-item">Up to 40 people</li>
               <li class="card-list-item">8 tour guides</li>
               <li class="card-list-item">Sleep in tent</li>
@@ -124,7 +124,7 @@
     <!-- End of Popular tours -->
 
     <!-- Stories -->
-    <section class="stories">
+    <section class="stories" id="about">
       <div class="video-container">
         <video class="bg-video" autoplay muted loop>
           <source src="images/video2.mp4" type="video/mp4" />
@@ -155,7 +155,6 @@
             <div class="story-text">
               <h1 class="story-heading">I enjoyed this great tour</h1>
               <p class="story-paragraph">
-
                 I recently took a 7-day train tour, and it was a relaxing and enjoyable experience. With a small group
                 of up to 20 people and 4 knowledgeable tour guides, the trip felt intimate and well-organized. We
                 traveled through breathtaking landscapes while staying in comfortable private rooms on the train, making
@@ -200,13 +199,13 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="footer-list">
-        <a href="#" class="footer-link">Home</a>
-        <a href="#" class="footer-link">Tours</a>
-        <a href="#" class="footer-link">About Us</a>
-        <a href="#" class="footer-link">Offer</a>
-        <a href="#" class="footer-link">Contact</a>
+        <a href="#home" class="footer-link">Home</a>
+        <a href="#tours" class="footer-link">Tours</a>
+        <a href="#about" class="footer-link">About Us</a>
+        <a href="#offer" class="footer-link">Offer</a>
+        <a href="#contact" class="footer-link">Contact</a>
       </div>
-      <p class="footer-paragraph" id="footer-year">Code By Tai Odunaiya &copy; All rights reserved</p>
+      <p class="copyright">&copy; <span id="current-year"></span> Website Coded by Tai Odunaiya</p>
     </footer>
     <!-- End of Footer -->
   </div>

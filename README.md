@@ -1,56 +1,60 @@
-# Around the World Travel Website 🌍
+# Let's Go — Around the World
 
-A modern, responsive travel website showcasing various tour packages and destinations around the world. Built with HTML, CSS, and JavaScript.
+A responsive travel landing page for **Let's Go**, showcasing tour packages, customer stories, and a contact form. Built with HTML, CSS, and vanilla JavaScript — no build step required.
 
-## Features ✨
+## Features
 
-- 🎯 Responsive design that works on all devices
-- 🎨 Beautiful UI with smooth animations and transitions
-- 🚂 Interactive tour cards with flip animations
-- 📱 Mobile-friendly navigation menu
-- 📝 Contact form for inquiries
-- 🎥 Background video in stories section
-- 📅 Dynamic copyright year in footer
+- Responsive layout for desktop and mobile
+- Full-screen navigation overlay with animated column links
+- Navigation closes automatically when a section link is selected
+- Flip cards for tour packages (price on the back)
+- Customer testimonials with a looping background video
+- Contact form for inquiries
+- Dynamic copyright year in the footer
 
-## Pages & Sections 📄
+## Sections
 
-- **Home**: Hero section with captivating header
-- **Tours**: Showcase of popular tour packages
-  - Train Tour
-  - Alaskan Cruise
-  - Egyptian Pyramids Tour
-- **Stories**: Customer testimonials with video background
-- **Contact**: Interactive contact form
+| Section | Description |
+| --- | --- |
+| **Home** | Hero with tagline and brand logo |
+| **Tours** | Three popular packages — Train Tour, 9-Day Alaskan Cruise, and Travel to the Pyramids |
+| **About Us** | Customer stories and testimonials |
+| **Offer** | Tour pricing and booking cards |
+| **Contact** | Name, email, phone, and message form |
 
-## Technologies Used 💻
+## Tech Stack
 
 - HTML5
-- CSS3
+- CSS3 (animations, flexbox, 3D card flips)
 - JavaScript (ES6+)
-- Google Fonts (Vollkorn)
+- [Google Fonts — Vollkorn](https://fonts.google.com/specimen/Vollkorn)
 
-## Setup Instructions 🚀
+## Getting Started
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/around-the-world-website.git
+git clone https://github.com/TaiOdunaiya/Around-the-world-Website.git
 ```
 
-2. Navigate to the project directory:
+2. Open the project folder:
+
 ```bash
-cd around-the-world-website
+cd Around-the-world-Website
 ```
 
-3. Open `index.html` in your preferred web browser
+3. Open `index.html` in your browser (double-click the file, or use a local server such as [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)).
 
-## Project Structure 📁
+No install or build commands are needed.
+
+## Project Structure
 
 ```
-around-the-world-website/
-├── index.html          # Main HTML file
-├── style.css           # Stylesheet
-├── script.js           # JavaScript functionality
-├── images/             # Image assets
+Around-the-world-Website/
+├── index.html          # Page markup and content
+├── style.css           # Layout, navigation, cards, and animations
+├── script.js           # Navbar, card flips, footer year
+├── images/             # Photos, icons, and background video
 │   ├── air-balloon.png
 │   ├── train.jpg
 │   ├── cruise.jpg
@@ -58,23 +62,13 @@ around-the-world-website/
 │   ├── story-img-1.jpg
 │   ├── story-img-2.jpg
 │   └── video2.mp4
-└── README.md           # Project documentation
+└── README.md
 ```
 
-## Contributing 🤝
+## Credits
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+- **Design & development:** Tai Odunaiya
 
-## License 📄
+## Contact
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Credits 👏
-
-- Design and Development: Tai Odunaiya
-- Images: Various sources (please update with actual image credits)
-- Video: Please update with actual video source credits
-
-## Contact 📧
-
-For any inquiries or suggestions, please reach out through the contact form on the website.
+Use the contact form on the site, or open an issue on [GitHub](https://github.com/TaiOdunaiya/Around-the-world-Website).
